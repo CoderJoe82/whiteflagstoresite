@@ -1,0 +1,18 @@
+#LandingPageLarge {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(147, 143, 142);
+}
+
+#LandingPageLargeMenu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-bottom: 1px white solid;
+    border-left: 1px solid white;
+    height: 60%;
+    width: 25%;
+}
