@@ -29,3 +29,36 @@
     border-color: white;
     cursor: pointer;
 }
+
+#GamesPageOfferText {
+    text-align: center;
+}
+
+#GamesPageLargeList {
+    margin: 0 auto;
+    width: 30%;
+    font-size: 1.4rem;
+}
+
+#skullduggeryAndPrintingArea {
+    width: 100%;
+    height: 35%;
+    display: flex;
+}
+
+#SkulduggerySide {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+#PrintingSide {
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+#PrintingLargeInfo {
+    width: 70%;
+    margin: 0 auto;
+}

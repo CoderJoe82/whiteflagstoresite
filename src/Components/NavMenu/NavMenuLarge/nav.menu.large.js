@@ -18,9 +18,6 @@ class NavMenuLarge extends Component {
         <Link className = "NavButtonsLinks" to = "/whiteflagstoresite/gamespage">
           <button className="NavButtonsLarge">Contact</button>
         </Link>
-        <Link className = "NavButtonsLinks" to = "/whiteflagstoresite/gamespage">
-          <button className="NavButtonsLarge">Home</button>
-        </Link>
       </div>
     );
   }
