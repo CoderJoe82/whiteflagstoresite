@@ -6,7 +6,7 @@ class GameMenuLarge extends Component {
     render() {
         return (
             <div id = "GamesMenuLarge">
-               <Link className = "GamesMenuLinks">
+               <Link className = "GamesMenuLinks" to = "/whiteflagstoresite/gamespage/tabletop">
                 <button className = "GamesMenuButtons">Tabletop</button>
                </Link>
                <Link className = "GamesMenuLinks">

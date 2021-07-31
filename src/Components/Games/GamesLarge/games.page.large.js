@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import GameMenu from "../../GameMenu/game.menu";
 import "./games.page.large.css";
-import GamePagesHomeButton from "./HomeButton/games.page.large.home.button";
+import GamePagesHomeButton from "../HomeButton/games.page.large.home.button";
 
 class GamesPageLarge extends Component {
   render() {
@@ -25,7 +25,7 @@ class GamesPageLarge extends Component {
           <div id="SkulduggerySide">
             <h1>Skulduggery</h1>
             <p>
-              Click {/*link*/}here{/*end link*/} to find out more about
+              Click {/*link*/}<a href = "#">here</a>{/*end link*/} to find out more about
               Skulduggery!
             </p>
             <p>Game by Joseph McNeil and Solomon McNeil</p>
@@ -33,6 +33,7 @@ class GamesPageLarge extends Component {
           </div>
           <div id="PrintingSide">
             <h1>3d Printing!!!</h1>
+            <p>Click <a href = "#">here</a> to see some 3D printing the store has used!</p>
             <p>
               White flag is looking for a skilled 3D printing designer for
               comission work!
