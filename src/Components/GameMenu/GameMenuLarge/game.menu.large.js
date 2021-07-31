@@ -1,11 +1,23 @@
 import './game.menu.large.css'
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 class GameMenuLarge extends Component {
     render() {
         return (
-            <div id = "MenuLarge">
-               
+            <div id = "GamesMenuLarge">
+               <Link className = "GamesMenuLinks">
+                <button className = "GamesMenuButtons">Tabletop</button>
+               </Link>
+               <Link className = "GamesMenuLinks">
+                <button className = "GamesMenuButtons">Cards</button>
+               </Link>
+               <Link className = "GamesMenuLinks">
+                <button className = "GamesMenuButtons">Roleplaying</button>
+               </Link>
+               <Link className = "GamesMenuLinks">
+                <button className = "GamesMenuButtons">Board</button>
+               </Link>
             </div>
         )
     }

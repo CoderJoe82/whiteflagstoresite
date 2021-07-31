@@ -1,19 +1,20 @@
-#GamesMenuLarge {
-    position: relative;
-    top: 0;
-    height: 10vh;
+#GamesPageLarge {
+    height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
-.GamesMenuLinks {
+#GamesPageHomeLink {
     width: 20%;
-    height: 70%;
+    height: 6vh;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
-.GamesMenuButtons {
+#GamesPageHomeButton {
+    position: relative;
     width: 100%;
     height: 100%;
     border-color: black;
@@ -22,7 +23,7 @@
     font-size: 1.4rem;
 }
 
-.GamesMenuButtons:hover {
+#GamesPageHomeButton:hover {
     background-color: black;
     color: white;
     border-color: white;
