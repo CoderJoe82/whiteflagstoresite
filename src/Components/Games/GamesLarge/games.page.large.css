@@ -32,12 +32,14 @@
 
 #GamesPageOfferText {
     text-align: center;
+    font-size: 3rem;
 }
 
 #GamesPageLargeList {
     margin: 0 auto;
     width: 30%;
     font-size: 1.4rem;
+    position: relative;
 }
 
 #skullduggeryAndPrintingArea {
@@ -61,4 +63,7 @@
 #PrintingLargeInfo {
     width: 70%;
     margin: 0 auto;
+}
+
+#MainGamesPageLargeContent {
 }
