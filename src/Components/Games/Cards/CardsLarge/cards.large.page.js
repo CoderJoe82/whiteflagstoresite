@@ -8,7 +8,20 @@ class CardsPageLarge extends Component {
     return (
       <div id="CardsPageLarge">
         <GameMenuLarge />
-            
+        <h1 id="CardGamesTitleLargeTitle">Come play cards with us!</h1>
+        <div id="MatHolder">
+          <img
+            alt="Card Game Mat"
+            id="CardGameMat"
+            src={`${process.env.PUBLIC_URL}/images/cardplaymat.png`}
+          />
+          <div id="CardGameMatCards">
+            <div className = "TheMatCards" id="CardBack" />
+            <div className = "TheMatCards" id = "MagicCard"/>
+            <div className = "TheMatCards" id = "PokemonCard" />
+            <div className = "TheMatCards" id = "YugiohCard"/>
+          </div>
+        </div>
         <GamePagesHomeButton />
       </div>
     );

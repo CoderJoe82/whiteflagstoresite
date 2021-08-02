@@ -4,3 +4,54 @@
     height: 100%;
     position: absolute;
 }
+
+#CardGamesTitleLargeTitle {
+    text-align: center;
+}
+
+#MatHolder {
+    color: white;
+    width: 50%;
+    height: 53.3%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 4%;
+    position: absolute;
+
+}
+
+#CardGameMat {
+    width: 100%;
+    position: absolute;
+}
+
+#CardGameMatCards {
+    height: 33%;
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.TheMatCards {
+    width: 14%;
+    height: 100%;
+}
+
+#CardBack {
+    background-color: black;
+}
+
+#MagicCard {
+    border: 1px solid white;
+}
+
+#PokemonCard {
+    border: 1px solid yellow;
+}
+
+#YugiohCard {
+    border: 1px solid blue;
+}
