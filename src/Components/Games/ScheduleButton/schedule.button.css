@@ -1,0 +1,10 @@
+#ScheduleButton {
+    width: 20%;
+    height: 6vh;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 4%;
+    bottom: 2%;
+}

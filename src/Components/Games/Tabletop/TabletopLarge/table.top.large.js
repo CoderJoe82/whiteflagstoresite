@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import GameMenu from "../../../GameMenu/game.menu";
 import GamePagesHomeButton from "../../HomeButton/games.page.large.home.button";
+import ScheduleButton from "../../ScheduleButton/schedule.button";
 import "./table.top.large.css";
 
 class TableTopLarge extends Component {
@@ -9,6 +10,7 @@ class TableTopLarge extends Component {
       <div id="TableTopLarge">
         <GameMenu />
         <h1 id="tableTopText">Play games like these and more!</h1>
+        <ScheduleButton />
         <div id="Table">
           <div id="leftChair">
             <div id="mainSeatLeft" />

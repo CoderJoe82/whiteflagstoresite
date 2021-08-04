@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import GameMenuLarge from "../../../GameMenu/GameMenuLarge/game.menu.large";
 import GamePagesHomeButton from "../../HomeButton/games.page.large.home.button";
+import ScheduleButton from "../../ScheduleButton/schedule.button";
 import "./cards.large.page.css";
 
 class CardsPageLarge extends Component {
@@ -9,6 +10,7 @@ class CardsPageLarge extends Component {
       <div id="CardsPageLarge">
         <GameMenuLarge />
         <h1 id="CardGamesTitleLargeTitle">Come play cards with us!</h1>
+        <ScheduleButton />
         <div id="MatHolder">
           <img
             alt="Card Game Mat"
