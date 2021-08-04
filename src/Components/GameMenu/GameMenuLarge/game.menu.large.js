@@ -12,10 +12,10 @@ class GameMenuLarge extends Component {
                <Link className = "GamesMenuLinks" to = "/whiteflagstoresite/gamespage/cards">
                 <button className = "GamesMenuButtons">Cards</button>
                </Link>
-               <Link className = "GamesMenuLinks">
+               <Link className = "GamesMenuLinks" to = "/whiteflagstorestie/gamespage/roleplaying">
                 <button className = "GamesMenuButtons">Roleplaying</button>
                </Link>
-               <Link className = "GamesMenuLinks">
+               <Link className = "GamesMenuLinks" to = "/whiteflagstoresite/gamespage/boardpage">
                 <button className = "GamesMenuButtons">Board</button>
                </Link>
             </div>
