@@ -4,3 +4,17 @@
     position: absolute;
     background-color: rgb(147, 143, 142);
 }
+
+#boardGamesTitle {
+    text-align: center;
+}
+
+#GameBoard {
+    width: 60%;
+    height: 50%;
+    border: 6px solid rgb(70, 47, 18);
+    background-color: black;
+    margin: 0 auto;
+    position: relative;
+    top: 4%;
+}
