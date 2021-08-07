@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/whiteflagstoresite/static/css/main.64cd88c2.chunk.css",
-    "main.js": "/whiteflagstoresite/static/js/main.e14b46be.chunk.js",
-    "main.js.map": "/whiteflagstoresite/static/js/main.e14b46be.chunk.js.map",
+    "main.css": "/whiteflagstoresite/static/css/main.fb8478c1.chunk.css",
+    "main.js": "/whiteflagstoresite/static/js/main.b292edda.chunk.js",
+    "main.js.map": "/whiteflagstoresite/static/js/main.b292edda.chunk.js.map",
     "runtime-main.js": "/whiteflagstoresite/static/js/runtime-main.d44434e3.js",
     "runtime-main.js.map": "/whiteflagstoresite/static/js/runtime-main.d44434e3.js.map",
     "static/js/2.85e90d5c.chunk.js": "/whiteflagstoresite/static/js/2.85e90d5c.chunk.js",
     "static/js/2.85e90d5c.chunk.js.map": "/whiteflagstoresite/static/js/2.85e90d5c.chunk.js.map",
     "index.html": "/whiteflagstoresite/index.html",
-    "static/css/main.64cd88c2.chunk.css.map": "/whiteflagstoresite/static/css/main.64cd88c2.chunk.css.map",
+    "static/css/main.fb8478c1.chunk.css.map": "/whiteflagstoresite/static/css/main.fb8478c1.chunk.css.map",
     "static/js/2.85e90d5c.chunk.js.LICENSE.txt": "/whiteflagstoresite/static/js/2.85e90d5c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d44434e3.js",
     "static/js/2.85e90d5c.chunk.js",
-    "static/css/main.64cd88c2.chunk.css",
-    "static/js/main.e14b46be.chunk.js"
+    "static/css/main.fb8478c1.chunk.css",
+    "static/js/main.b292edda.chunk.js"
   ]
 }
