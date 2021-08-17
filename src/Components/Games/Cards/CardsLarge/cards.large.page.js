@@ -2,15 +2,37 @@ import React, { Component } from "react";
 import GameMenuLarge from "../../../GameMenu/GameMenuLarge/game.menu.large";
 import GamePagesHomeButton from "../../HomeButton/games.page.large.home.button";
 import ScheduleButton from "../../ScheduleButton/schedule.button";
+import ScheduleModal from "../../ScheduleModal/ScheduleModal";
 import "./cards.large.page.css";
 
 class CardsPageLarge extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      show: false,
+      pageType: "Card game",
+      fontStyle: "bold"
+    }
+  }
+
+  handleShow = () => {
+    this.setState({
+      show: true
+    })
+  }
+
+  handleClose = () => {
+    this.setState({
+      show: false
+    })
+  }
+
   render() {
     return (
       <div id="CardsPageLarge">
         <GameMenuLarge />
         <h1 id="CardGamesTitleLargeTitle">Come play cards with us!</h1>
-        <ScheduleButton />
         <div id="MatHolder">
           <img
             alt="Card Game Mat"
@@ -25,6 +47,18 @@ class CardsPageLarge extends Component {
           </div>
         </div>
         <GamePagesHomeButton />
+        <ScheduleModal
+          show = {this.state.show}
+          pageType = {this.state.pageType}
+          mondayFontStyle = {this.state.fontStyle}
+          tuesdayFontStyle = {this.state.fontStyle}
+          fridayFontStyle = {this.state.fontStyle}
+          sundayFontStyle = {this.state.fontStyle}
+          handleClose = {this.handleClose}
+        />
+        <button id="scheduleButtonLarge" onClick={this.handleShow}>
+          Schedule
+        </button>
       </div>
     );
   }

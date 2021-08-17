@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import GameMenu from "../../../GameMenu/game.menu";
 import GamePagesHomeButton from "../../HomeButton/games.page.large.home.button";
-import { Modal, Button } from "react-bootstrap";
 import "./table.top.large.css";
+import ScheduleModal from "../../ScheduleModal/ScheduleModal";
 
 class TableTopLarge extends Component {
   constructor(props) {
@@ -10,6 +10,8 @@ class TableTopLarge extends Component {
 
     this.state = {
       show: false,
+      pageType: "Tabletop",
+      fontStyle: "bold",
     };
   }
 
@@ -23,10 +25,6 @@ class TableTopLarge extends Component {
     this.setState({
       show: true,
     });
-  };
-
-  handleClick = () => {
-    alert("yo");
   };
 
   render() {
@@ -74,24 +72,14 @@ class TableTopLarge extends Component {
             <div id="leftLeg" />
             <div id="rightLeg" />
           </div>
-
           <GamePagesHomeButton />
         </div>
-        <Modal
+        <ScheduleModal
           show={this.state.show}
-          onHide={this.handleClose}
-          id="tabletopScheduleModal"
-        >
-          <Modal.Header>
-            <Modal.Title>Tabletop Schedule</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>Games!</Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={this.handleClose}>
-              Close
-            </Button>
-          </Modal.Footer>
-        </Modal>
+          pageType={this.state.pageType}
+          thursdayFontStyle = {this.state.fontStyle}
+          handleClose = {this.handleClose}
+        />
         <button id="scheduleButtonLarge" onClick={this.handleShow}>
           Schedule
         </button>
