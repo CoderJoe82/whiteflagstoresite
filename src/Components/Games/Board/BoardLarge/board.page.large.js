@@ -33,7 +33,7 @@ class BoardPageLarge extends Component {
       <div id="BoardPageLarge">
         <GameMenu />
         <h1 id="boardGamesTitle">Board Games</h1>
-        <div id="GameBoard"></div>
+        <div id="GameBoard"><img id = "boardGameImage" src = {`${process.env.PUBLIC_URL}/images/boardGameImage.png`}/></div>
         <GamesPageHomeButton />
         <ScheduleModal 
             show = {this.state.show}

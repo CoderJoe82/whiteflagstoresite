@@ -18,4 +18,12 @@
     margin: auto;
     position: absolute;
     bottom: 11%;
+    border: 1px solid white;
+    border-radius: 40px;
+}
+
+#boardGameImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
 }
