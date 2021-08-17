@@ -3,13 +3,9 @@ import './schedule.button.large.css'
 
 class ScheduleButtonLarge extends Component {
 
-    handleClickText = () => {
-        alert('yo')
-    }
-
     render() {
         return (
-            <button id = "scheduleButtonLarge" onClick = {this.handleClickText}>
+            <button id = "scheduleButtonLarge">
                 Schedule
             </button>
         )

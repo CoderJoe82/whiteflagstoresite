@@ -10,11 +10,12 @@
 }
 
 #GameBoard {
-    width: 60%;
-    height: 50%;
-    border: 6px solid rgb(70, 47, 18);
+    width: 58%;
+    height: 58%;
     background-color: black;
-    margin: 0 auto;
-    position: relative;
-    top: 4%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    bottom: 11%;
 }

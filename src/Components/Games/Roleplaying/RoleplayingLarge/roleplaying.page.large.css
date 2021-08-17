@@ -9,15 +9,16 @@
 
 #gameTableSurface {
     position: absolute;
-    bottom: 15%;
+    bottom: 11%;
     left: 0;
     right: 0;
     margin: auto;
     width: 25%;
-    height: 48%;
+    height: 49%;
     border-radius: 5%;
     
 }
+
 
 #gameTableSurfaceOne {
     position: absolute;
@@ -44,7 +45,7 @@
 #dmScreen {
     position: absolute;
     width: 75%;
-    top: -10%;
+    top: -7%;
     height: 20%;
     z-index: 5;
     left: 0;
@@ -101,5 +102,4 @@
 #roleplayTableText {
     text-align: center;
     position: relative;
-    margin-bottom: -1%;
 }
