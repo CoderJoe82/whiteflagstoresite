@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import ThreeDPrintingPage from '../Components/3dPrinting/three.d.printing.page'
+import ContactPage from '../Components/Contact/contact.page'
 import BoardPage from '../Components/Games/Board/board.page'
 import CardsPage from '../Components/Games/Cards/cards.page'
 import GamesPage from '../Components/Games/games.page'
@@ -20,6 +22,8 @@ class Routes extends Component {
                     <Route path = "/whiteflagstorestie/gamespage/roleplaying" exact component = {RolePlaying} />
                     <Route path = "/whiteflagstoresite/gamespage/boardpage" exact component = {BoardPage}/>
                     <Route path = "/whiteflagstoresite/staffpage" exact component = {StaffPage} />
+                    <Route path = "/whiteflagstoresite/contactpage" exact component = {ContactPage} />
+                    <Route path = "/whiteflagstoresite/threeDPrintingPage" exact component = {ThreeDPrintingPage} />
                 </Switch>
             </Router>
         )

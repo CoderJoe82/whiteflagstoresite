@@ -233,8 +233,11 @@
     width: 20%;
     height: 6vh;
     position: absolute;
+    border-color: black;
     bottom: 2%;
     right: 2%;
+    border-radius: 20px;
+    font-size: 22px;
 }
 
 #scheduleButtonLarge:hover {

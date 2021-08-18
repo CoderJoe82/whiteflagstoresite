@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./board.page.large.css";
 import GameMenu from "../../../GameMenu/game.menu";
 import GamesPageHomeButton from "../../../Games/HomeButton/games.page.large.home.button";
-import ScheduleButton from "../../ScheduleButton/schedule.button";
 import ScheduleModal from "../../ScheduleModal/ScheduleModal";
 
 class BoardPageLarge extends Component {
@@ -33,7 +32,7 @@ class BoardPageLarge extends Component {
       <div id="BoardPageLarge">
         <GameMenu />
         <h1 id="boardGamesTitle">Board Games</h1>
-        <div id="GameBoard"><img id = "boardGameImage" src = {`${process.env.PUBLIC_URL}/images/boardGameImage.png`}/></div>
+        <div id="GameBoard"><img id = "boardGameImage" src = {`${process.env.PUBLIC_URL}/images/boardGameImage.png`} alt = "board game"/></div>
         <GamesPageHomeButton />
         <ScheduleModal 
             show = {this.state.show}

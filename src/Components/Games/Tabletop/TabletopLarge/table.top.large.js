@@ -53,18 +53,21 @@ class TableTopLarge extends Component {
                 <img
                   id="legendaryBox"
                   src={`${process.env.PUBLIC_URL}/images/legendaryBoxImage.png`}
+                  alt = ""
                 />
               </div>
               <div id="warHammer">
                 <img
                   id="warHammerBox"
                   src={`${process.env.PUBLIC_URL}/images/warhammerboximage.png`}
+                  alt = ""
                 />
               </div>
               <div id="legion">
                 <img
                   id="legionBox"
                   src={`${process.env.PUBLIC_URL}/images/starWarsLegionBox.png`}
+                  alt = ""
                 />
               </div>
             </div>

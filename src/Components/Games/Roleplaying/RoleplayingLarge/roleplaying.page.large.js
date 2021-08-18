@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import GameMenu from "../../../GameMenu/game.menu";
 import GamePagesHomeButton from "../../HomeButton/games.page.large.home.button";
-import ScheduleButton from "../../ScheduleButton/schedule.button";
 import ScheduleModal from "../../ScheduleModal/ScheduleModal";
 import "./roleplaying.page.large.css";
 

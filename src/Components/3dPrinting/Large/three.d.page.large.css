@@ -1,0 +1,61 @@
+#threeDPrintingPageLarge {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(147, 143, 142);
+}
+
+#threeDPrintingTitle {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#printingContent {
+    position: absolute;
+    width: 80%;
+    height: 70%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#printingCarousel {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#babaYagaHouse {
+    width: 35.5%;
+    display: block;
+    margin: 0 auto;
+}
+
+#hulkFront {
+    width: 35.5%;
+    display: block;
+    margin: 0 auto;
+}
+
+#setPiece {
+    width: 35.5%;
+    display: block;
+    margin: 0 auto;
+}
+
+#setPieceTwo {
+    width: 35.5%;
+    display: block;
+    margin: 0 auto;
+}
+
+#groupItems {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+}
