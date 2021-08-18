@@ -6,6 +6,7 @@ import GamesPage from '../Components/Games/games.page'
 import RolePlaying from '../Components/Games/Roleplaying/roleplaying.page'
 import TableTopPage from '../Components/Games/Tabletop/table.top'
 import LandingPage from '../Components/LandingPage/landing.page'
+import StaffPage from '../Components/Staff/staff.page'
 
 class Routes extends Component {
     render() {
@@ -18,6 +19,7 @@ class Routes extends Component {
                     <Route path = "/whiteflagstoresite/gamespage/cards" exact component = {CardsPage} />
                     <Route path = "/whiteflagstorestie/gamespage/roleplaying" exact component = {RolePlaying} />
                     <Route path = "/whiteflagstoresite/gamespage/boardpage" exact component = {BoardPage}/>
+                    <Route path = "/whiteflagstoresite/staffpage" exact component = {StaffPage} />
                 </Switch>
             </Router>
         )

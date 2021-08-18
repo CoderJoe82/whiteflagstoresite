@@ -1,0 +1,80 @@
+#staffPageLarge {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(147, 143, 142);
+}
+
+#staffTitleText {
+    width: 22%;
+    position: absolute;
+    text-align: center;
+    top: 2%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 3rem
+}
+
+#staffPictureArea {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#pictureAreaTop {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+#pictureAreaBottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+.staffPictures {
+    height: 100%;
+    width: 33.33%;
+    position: relative;
+}
+
+#joepic, #scottpic, #dakotapic, #joshpic, #aaronpic, #drewpic {
+    position: absolute;
+    left: 4%;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    height: 90%;
+}
+
+.staffText {
+    position: absolute;
+    width: 54%;
+    height: 100%;
+    right: 0;
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+
+#joeStaffText, #scottStaffText, #dakotaStaffText, #joshStaffText, #aaronStaffText, #drewStaffText {
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
