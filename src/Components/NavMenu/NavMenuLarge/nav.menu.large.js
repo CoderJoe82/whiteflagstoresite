@@ -7,9 +7,6 @@ class NavMenuLarge extends Component {
     return (
       <div id="NavMenuLarge">
         <Link className = "NavButtonsLinks" to = "/whiteflagstoresite/gamespage">
-          <button className="NavButtonsLarge">About Us</button>
-        </Link>
-        <Link className = "NavButtonsLinks" to = "/whiteflagstoresite/gamespage">
           <button className="NavButtonsLarge">Games</button>
         </Link>
         <Link className = "NavButtonsLinks" to = "/whiteflagstoresite/staffpage">
