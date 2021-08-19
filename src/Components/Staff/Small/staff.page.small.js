@@ -40,7 +40,7 @@ class StaffPageSmall extends Component {
                         <img alt = "josh mobile" id = "joshMobilePic" src = {`${process.env.PUBLIC_URL}/images/wfjosh.png`} />
                         <div id = "joshMobileText">
                             Name:<br />
-                            Dakota McMurray<br /><br />
+                            Josh Freeman<br /><br />
                             Social Media Director<br /><br />
                             Dakota@<br />whiteflaggames.com
                         </div>
@@ -49,7 +49,7 @@ class StaffPageSmall extends Component {
                         <img alt = "aaron mobile" id = "aaronMobilePic" src = {`${process.env.PUBLIC_URL}/images/wfaaron.png`} />
                         <div id = "aaronMobileText">
                             Name:<br />
-                            Dakota McMurray<br /><br />
+                            Aaron Sutton<br /><br />
                             Social Media Director<br /><br />
                             Dakota@<br />whiteflaggames.com
                         </div>
@@ -58,7 +58,7 @@ class StaffPageSmall extends Component {
                         <img alt = "drew mobile" id = "drewMobilePic" src = {`${process.env.PUBLIC_URL}/images/wfdrew.png`} />
                         <div id = "drewMobileText">
                             Name:<br />
-                            Dakota McMurray<br /><br />
+                            Drew Happli<br /><br />
                             Social Media Director<br /><br />
                             Dakota@<br />whiteflaggames.com
                         </div>
