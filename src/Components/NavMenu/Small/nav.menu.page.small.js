@@ -23,7 +23,7 @@ class NavMenuSmall extends Component {
         <Link to="/whiteflagstoresitemobile/gamespage" className = "navLinks">
           <option>Games</option>
         </Link>
-        <Link to="whiteflagstoresitemobile/staffpage" className = "navLinks">
+        <Link to="/whiteflagstoresitemobile/staffpage" className = "navLinks">
           <option>Staff</option>
         </Link>
         <Link to="/whiteflagstoresitemobile/contactpage" className = "navLinks">

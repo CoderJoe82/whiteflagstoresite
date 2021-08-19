@@ -1,5 +1,6 @@
 #navMenuSmall {
     position: fixed;
+    z-index: 1000;
     top: 0;
     width: 100%;
     height: 7%;
@@ -11,15 +12,15 @@
 
 .navLinks {
     text-decoration: none;
-}
-
-.navLinks:focus, .navLinks:active, .navLinks:checked {
-    text-decoration: underline;
-    text-decoration-color: white;
+    z-index: 1;
 }
 
 #navMenuSmall option {
     color: white;
+}
+
+option {
+    z-index: 10;
 }
 
 option:checked {

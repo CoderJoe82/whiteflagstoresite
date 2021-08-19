@@ -1,0 +1,20 @@
+#contactPageSmall {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(147, 143, 142);
+}
+
+#contactText {
+    margin-top: 15%;
+    margin-bottom: -4%;
+    text-align: center;
+}
+
+#contactSection {
+    text-align: center;
+    position: relative;
+    top: 5%;
+}

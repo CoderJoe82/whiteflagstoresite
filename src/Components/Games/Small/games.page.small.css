@@ -1,0 +1,143 @@
+#gamesPageSmall {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(147, 143, 142);
+    overflow: scroll;
+}
+
+#offerTextMobile {
+    margin-top: 18%;
+    text-align: center;    
+}
+
+#offerList {
+    position: relative;
+    top: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#skulDuggery {
+    position: relative;
+    top: 7%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+
+#skulduggeryLogo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#skulDuggeryImageSpot {
+    position: relative;
+    height: 80px;
+}
+
+#skulDuggeryVideoMobile {
+    width: 100%;
+}
+
+#gamesSectionMobile {
+    position: relative;
+    top: 12%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 90%;
+    height: 20%;
+}
+
+#gameAccordionHeader {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#legendaryMobile {
+    position: relative;
+    width: 100%;
+}
+
+#firstItemMobileGamesMenu {
+    background-color: black;
+}
+
+#firstGamesMobileDetailsText {
+    color: white;
+}
+
+#starwarsMobile {
+    width: 100%;
+}
+
+#warhammerMobile {
+    width: 100%;
+}
+
+#scheduleButtonSmall {
+    width: 100%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#buttonDetails {
+    width: 80%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#scheduleButtonSmall:active {
+    background-color: black;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+#magicLogo {
+    width: 100%;
+}
+
+#pokemonLogo {
+    width: 90%;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#danddlogo {
+    width: 100%;
+}
+
+#catanLogo {
+    width: 100%;
+}
+
+#riskLogo {
+    width: 100%;
+}
+
+#videoSpot {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#GameResourceLinksMobile {
+    font-size: 1.5rem;
+}

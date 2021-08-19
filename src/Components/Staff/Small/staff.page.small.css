@@ -1,0 +1,115 @@
+#staffPageSmall {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(147, 143, 142);
+  overflow: scroll;
+}
+
+#staffHeadText {
+  margin-top: 17%;
+  text-align: center;
+}
+
+#staffSectionSmall {
+  width: 95%;
+  height: 235%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#joeSectionSmall {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+#joeMobilePic {
+  width: 50%;
+}
+
+#joeMobileText {
+  text-align: center;
+  width: 50%;
+}
+
+#scottSectionSmall {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+#scottMobilePic {
+  width: 50%;
+}
+
+#scottMobileText {
+  text-align: center;
+  width: 50%;
+}
+
+#dakotaSectionSmall {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+#dakotaMobilePic {
+  width: 50%;
+}
+
+#dakotaMobileText {
+  width: 50%;
+  text-align: center;
+}
+
+#joshSectionSmall {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+#joshMobilePic {
+width: 50%;
+}
+
+#joshMobileText {
+width: 50%;
+text-align: center;
+}
+
+#aaronSectionSmall {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+#aaronMobilePic {
+width: 50%;
+}
+
+#aaronMobileText {
+width: 50%;
+text-align: center;
+}
+
+#drewSectionSmall {
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+#drewMobilePic {
+width: 50%;
+}
+
+#drewMobileText {
+width: 50%;
+text-align: center;
+}
