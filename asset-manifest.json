@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/whiteflagstoresite/static/css/main.a65aa284.chunk.css",
-    "main.js": "/whiteflagstoresite/static/js/main.05fe02d9.chunk.js",
-    "main.js.map": "/whiteflagstoresite/static/js/main.05fe02d9.chunk.js.map",
+    "main.css": "/whiteflagstoresite/static/css/main.5c0d90dc.chunk.css",
+    "main.js": "/whiteflagstoresite/static/js/main.77847919.chunk.js",
+    "main.js.map": "/whiteflagstoresite/static/js/main.77847919.chunk.js.map",
     "runtime-main.js": "/whiteflagstoresite/static/js/runtime-main.d44434e3.js",
     "runtime-main.js.map": "/whiteflagstoresite/static/js/runtime-main.d44434e3.js.map",
     "static/css/2.c490997a.chunk.css": "/whiteflagstoresite/static/css/2.c490997a.chunk.css",
-    "static/js/2.8aea671e.chunk.js": "/whiteflagstoresite/static/js/2.8aea671e.chunk.js",
-    "static/js/2.8aea671e.chunk.js.map": "/whiteflagstoresite/static/js/2.8aea671e.chunk.js.map",
+    "static/js/2.558d6152.chunk.js": "/whiteflagstoresite/static/js/2.558d6152.chunk.js",
+    "static/js/2.558d6152.chunk.js.map": "/whiteflagstoresite/static/js/2.558d6152.chunk.js.map",
     "index.html": "/whiteflagstoresite/index.html",
     "static/css/2.c490997a.chunk.css.map": "/whiteflagstoresite/static/css/2.c490997a.chunk.css.map",
-    "static/css/main.a65aa284.chunk.css.map": "/whiteflagstoresite/static/css/main.a65aa284.chunk.css.map",
-    "static/js/2.8aea671e.chunk.js.LICENSE.txt": "/whiteflagstoresite/static/js/2.8aea671e.chunk.js.LICENSE.txt"
+    "static/css/main.5c0d90dc.chunk.css.map": "/whiteflagstoresite/static/css/main.5c0d90dc.chunk.css.map",
+    "static/js/2.558d6152.chunk.js.LICENSE.txt": "/whiteflagstoresite/static/js/2.558d6152.chunk.js.LICENSE.txt",
+    "static/media/babayagahouse.9968fc1a.jpg": "/whiteflagstoresite/static/media/babayagahouse.9968fc1a.jpg",
+    "static/media/groupitems.b0abbca5.jpg": "/whiteflagstoresite/static/media/groupitems.b0abbca5.jpg",
+    "static/media/hulkFront2.e0b6212c.jpg": "/whiteflagstoresite/static/media/hulkFront2.e0b6212c.jpg",
+    "static/media/setpiece.fceb543f.jpg": "/whiteflagstoresite/static/media/setpiece.fceb543f.jpg",
+    "static/media/setpiece2.4668ffda.jpg": "/whiteflagstoresite/static/media/setpiece2.4668ffda.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d44434e3.js",
     "static/css/2.c490997a.chunk.css",
-    "static/js/2.8aea671e.chunk.js",
-    "static/css/main.a65aa284.chunk.css",
-    "static/js/main.05fe02d9.chunk.js"
+    "static/js/2.558d6152.chunk.js",
+    "static/css/main.5c0d90dc.chunk.css",
+    "static/js/main.77847919.chunk.js"
   ]
 }
