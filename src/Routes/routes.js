@@ -8,6 +8,7 @@ import GamesPage from '../Components/Games/games.page'
 import RolePlaying from '../Components/Games/Roleplaying/roleplaying.page'
 import TableTopPage from '../Components/Games/Tabletop/table.top'
 import LandingPage from '../Components/LandingPage/landing.page'
+import SkulDuggeryPageLarge from '../Components/Skulduggery/Large/skul.duggery.page.large'
 import StaffPage from '../Components/Staff/staff.page'
 
 class Routes extends Component {
@@ -24,6 +25,7 @@ class Routes extends Component {
                     <Route path = "/whiteflagstoresite/staffpage" exact component = {StaffPage} />
                     <Route path = "/whiteflagstoresite/contactpage" exact component = {ContactPage} />
                     <Route path = "/whiteflagstoresite/threeDPrintingPage" exact component = {ThreeDPrintingPage} />
+                    <Route path = "/whiteflagstoresite/skulduggery" exact component = {SkulDuggeryPageLarge} />
                 </Switch>
             </Router>
         )

@@ -27,7 +27,7 @@
 }
 
 #CardGameMatCards {
-    height: 33%;
+    height: 180px;
     width: 100%;
     position: absolute;
     bottom: 5%;
@@ -36,7 +36,7 @@
 }
 
 .TheMatCards {
-    width: 14%;
+    width: 130px;
     height: 100%;
 }
 
