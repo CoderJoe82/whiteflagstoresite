@@ -1,0 +1,25 @@
+#landingPageSmall {
+    background-color: rgb(147, 143, 142);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#whiteflaglogomobile {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+#landingpagemobiletitle {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#missionstatementmobile {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+}

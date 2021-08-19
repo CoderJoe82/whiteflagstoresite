@@ -12,79 +12,79 @@ class ScheduleModal extends Component {
         <Modal.Body id="mainBody">
           <div id="gamesScheduleSpot">
             <div id="mondaySection" style = {{fontWeight: `${this.props.mondayFontStyle}`}}>
-              <div id="mondayDay" class="scheduleModalBoxes dayStart">
+              <div id="mondayDay" className ="scheduleModalBoxes dayStart">
                 Monday
               </div>
-              <div id="mondayHours" class="scheduleModalBoxes dayCenter">
+              <div id="mondayHours" className ="scheduleModalBoxes dayCenter">
                 3pm - 9pm
               </div>
-              <div id="mondayGames" class="scheduleModalBoxes dayEnd">
+              <div id="mondayGames" className ="scheduleModalBoxes dayEnd">
                 Card Game Night
               </div>
             </div>
             <div id="tuesdaySection" style = {{fontWeight: `${this.props.tuesdayFontStyle}`}}>
-              <div id="tuesdayDay" class="scheduleModalBoxes dayStart">
+              <div id="tuesdayDay" className ="scheduleModalBoxes dayStart">
                 Tuesday
               </div>
-              <div id="tuesdayHours" class="scheduleModalBoxes dayCenter">
+              <div id="tuesdayHours" className ="scheduleModalBoxes dayCenter">
                 3pm - 9pm
               </div>
-              <div id="tuesdayGames" class="scheduleModalBoxes dayEnd">
+              <div id="tuesdayGames" className ="scheduleModalBoxes dayEnd">
                 Pokemon Trading Card Game
               </div>
             </div>
             <div id="wednesdaySection" style = {{fontWeight: `${this.props.wednesdayFontStyle}`}}>
-              <div id="wednesdayDay" class="scheduleModalBoxes dayStart">
+              <div id="wednesdayDay" className ="scheduleModalBoxes dayStart">
                 Wednesday
               </div>
-              <div id="wednesdayHours" class="scheduleModalBoxes dayCenter">
+              <div id="wednesdayHours" className ="scheduleModalBoxes dayCenter">
                 6pm - 9pm
               </div>
-              <div id="wednesdayGames" class="scheduleModalBoxes dayEnd">
+              <div id="wednesdayGames" className ="scheduleModalBoxes dayEnd">
                 Dungeons & Dragons
               </div>
             </div>
             <div id="thursdaySection" style = {{fontWeight: `${this.props.thursdayFontStyle}`}}>
-              <div id="thursdayDay" class="scheduleModalBoxes dayStart">
+              <div id="thursdayDay" className ="scheduleModalBoxes dayStart">
                 Thursday
               </div>
-              <div id="thursdayHours" class="scheduleModalBoxes dayCenter">
+              <div id="thursdayHours" className ="scheduleModalBoxes dayCenter">
                 6pm - 9pm
               </div>
-              <div id="thursdayGames" class="scheduleModalBoxes dayEnd">
+              <div id="thursdayGames" className ="scheduleModalBoxes dayEnd">
                 Miniature & Paint Night
               </div>
             </div>
             <div id="fridaySection" style = {{fontWeight: `${this.props.fridayFontStyle}`}}>
-              <div id="fridayDay" class="scheduleModalBoxes dayStart">
+              <div id="fridayDay" className ="scheduleModalBoxes dayStart">
                 Friday
               </div>
-              <div id="fridayHours" class="scheduleModalBoxes dayCenter">
+              <div id="fridayHours" className ="scheduleModalBoxes dayCenter">
                 6pm - 10pm <br />7pm - 10pm
               </div>
-              <div id="fridayGames" class="scheduleModalBoxes dayEnd">
+              <div id="fridayGames" className ="scheduleModalBoxes dayEnd">
                 Universes/Final Fantasy <br />Magic: The Gathering
               </div>
             </div>
             <div id="saturdaySection" style = {{fontWeight: `${this.props.saturdayFontStyle}`}}>
-              <div id="saturdayDay" class="scheduleModalBoxes dayStart">
+              <div id="saturdayDay" className ="scheduleModalBoxes dayStart">
                 Saturday
               </div>
-              <div id="saturdayHours" class="scheduleModalBoxes dayCenter">
+              <div id="saturdayHours" className ="scheduleModalBoxes dayCenter">
                 5p - 12pm
               </div>
-              <div id="saturdayGames" class="scheduleModalBoxes dayEnd">
+              <div id="saturdayGames" className ="scheduleModalBoxes dayEnd">
                 Open Board Games
               </div>
             </div>
             <div id="sundaySection" style = {{fontWeight: `${this.props.sundayFontStyle}`}}>
-              <div id="sundayDay" class="scheduleModalBoxes dayStart">
+              <div id="sundayDay" className ="scheduleModalBoxes dayStart">
                 Sunday
               </div>
-              <div id="sundayHours" class="scheduleModalBoxes dayCenter">
+              <div id="sundayHours" className ="scheduleModalBoxes dayCenter">
                 1pm - 6pm
               </div>
-              <div id="sundayGames" class="scheduleModalBoxes dayEnd">
+              <div id="sundayGames" className ="scheduleModalBoxes dayEnd">
                 Magic: The Gathering
               </div>
             </div>
