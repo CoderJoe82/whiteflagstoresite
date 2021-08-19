@@ -42,7 +42,7 @@ class StaffPageSmall extends Component {
                             Name:<br />
                             Josh Freeman<br /><br />
                             Social Media Director<br /><br />
-                            Dakota@<br />whiteflaggames.com
+                            Josh@<br />whiteflaggames.com
                         </div>
                     </div>
                     <div id = "aaronSectionSmall">
@@ -51,7 +51,7 @@ class StaffPageSmall extends Component {
                             Name:<br />
                             Aaron Sutton<br /><br />
                             Social Media Director<br /><br />
-                            Dakota@<br />whiteflaggames.com
+                            Aaron@<br />whiteflaggames.com
                         </div>
                     </div>
                     <div id = "drewSectionSmall">
@@ -60,7 +60,7 @@ class StaffPageSmall extends Component {
                             Name:<br />
                             Drew Happli<br /><br />
                             Social Media Director<br /><br />
-                            Dakota@<br />whiteflaggames.com
+                            Drew@<br />whiteflaggames.com
                         </div>
                     </div>
                 </div>
