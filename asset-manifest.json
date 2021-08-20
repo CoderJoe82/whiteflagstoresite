@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/whiteflagstoresite/static/css/main.63039694.chunk.css",
-    "main.js": "/whiteflagstoresite/static/js/main.ca454458.chunk.js",
-    "main.js.map": "/whiteflagstoresite/static/js/main.ca454458.chunk.js.map",
+    "main.js": "/whiteflagstoresite/static/js/main.095a386e.chunk.js",
+    "main.js.map": "/whiteflagstoresite/static/js/main.095a386e.chunk.js.map",
     "runtime-main.js": "/whiteflagstoresite/static/js/runtime-main.d44434e3.js",
     "runtime-main.js.map": "/whiteflagstoresite/static/js/runtime-main.d44434e3.js.map",
     "static/css/2.c490997a.chunk.css": "/whiteflagstoresite/static/css/2.c490997a.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.c490997a.chunk.css",
     "static/js/2.68ea4f7f.chunk.js",
     "static/css/main.63039694.chunk.css",
-    "static/js/main.ca454458.chunk.js"
+    "static/js/main.095a386e.chunk.js"
   ]
 }
