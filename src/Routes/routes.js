@@ -17,17 +17,13 @@ class Routes extends Component {
             <Router>
                 <Switch>
                     <Route path = "/whiteflagstoresite" exact component = {LandingPage} />
-                    <Route path = "/whiteflagstoresitemobile" exact component = {LandingPage} />
                     <Route path = "/whiteflagstoresite/gamespage" exact component = {GamesPage} />
-                    <Route path = "/whiteflagstoresitemobile/gamespage" exact component = {GamesPage} />
                     <Route path = "/whiteflagstoresite/gamespage/tabletop" exact component = {TableTopPage} />
                     <Route path = "/whiteflagstoresite/gamespage/cards" exact component = {CardsPage} />
                     <Route path = "/whiteflagstorestie/gamespage/roleplaying" exact component = {RolePlaying} />
                     <Route path = "/whiteflagstoresite/gamespage/boardpage" exact component = {BoardPage}/>
                     <Route path = "/whiteflagstoresite/staffpage" exact component = {StaffPage} />
-                    <Route path = "/whiteflagstoresitemobile/staffpage" exact component = {StaffPage} />
                     <Route path = "/whiteflagstoresite/contactpage" exact component = {ContactPage} />
-                    <Route path = "/whiteflagstoresitemobile/contactpage" exact component = {ContactPage} />
                     <Route path = "/whiteflagstoresite/threeDPrintingPage" exact component = {ThreeDPrintingPage} />
                     <Route path = "/whiteflagstoresite/skulduggery" exact component = {SkulDuggeryPageLarge} />
                 </Switch>

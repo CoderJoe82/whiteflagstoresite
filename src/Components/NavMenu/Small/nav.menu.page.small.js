@@ -17,16 +17,16 @@ class NavMenuSmall extends Component {
   render() {
     return (
       <div id="navMenuSmall">
-        <Link to="/whiteflagstoresitemobile" className = "navLinks">
+        <Link to="/whiteflagstoresite" className = "navLinks">
           <option>Home</option>
         </Link>
-        <Link to="/whiteflagstoresitemobile/gamespage" className = "navLinks">
+        <Link to="/whiteflagstoresite/gamespage" className = "navLinks">
           <option>Games</option>
         </Link>
-        <Link to="/whiteflagstoresitemobile/staffpage" className = "navLinks">
+        <Link to="/whiteflagstoresite/staffpage" className = "navLinks">
           <option>Staff</option>
         </Link>
-        <Link to="/whiteflagstoresitemobile/contactpage" className = "navLinks">
+        <Link to="/whiteflagstoresite/contactpage" className = "navLinks">
           <option>Contact</option>
         </Link>
       </div>
