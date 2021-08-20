@@ -48,8 +48,7 @@ class GamesPageSmall extends Component {
         </ul>
         <div id="skulDuggery">
           <h1>Skulduggery!</h1>
-          Click here to find out more about Skulduggery!
-          <br />
+          
           Game by Joseph McNeil and Solomon McNeil
           <br />
           Art by Keith Lowe
