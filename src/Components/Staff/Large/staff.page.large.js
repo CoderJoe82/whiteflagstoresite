@@ -18,11 +18,11 @@ class StaffPageLarge extends Component {
             <p className = "pictureTexts">Scott@whiteflaggames.com</p>
           </div>
           <div id="dakotaSpot">
-          <img id = "joePicture" alt = "joe" src = {`${process.env.PUBLIC_URL}/images/FFstaffcardbacks/joefullpic.png`}/>
+          <img id = "dakotaPicture" alt = "dakota" src = {`${process.env.PUBLIC_URL}/images/FFstaffcardbacks/dakotafullpic.png`}/>
             <p className = "pictureTexts">Dakota@whiteflaggames.com</p>
           </div>
           <div id="joshSpot">
-          <img id = "joePicture" alt = "joe" src = {`${process.env.PUBLIC_URL}/images/FFstaffcardbacks/joefullpic.png`}/>
+          <img id = "joshPicture" alt = "josh" src = {`${process.env.PUBLIC_URL}/images/FFstaffcardbacks/joshfullpic.png`}/>
             <p className = "pictureTexts">Josh@whiteflaggames.com</p>
           </div>
         </div>

@@ -33,11 +33,7 @@ class CardsPageLarge extends Component {
         <GameMenuLarge />
         <h1 id="CardGamesTitleLargeTitle">Come play cards with us!</h1>
         <div id="MatHolder">
-          <img
-            alt="Card Game Mat"
-            id="CardGameMat"
-            src={`${process.env.PUBLIC_URL}/images/cardplaymat.png`}
-          />
+          <img id = "playmat" alt = "mat" src = {`${process.env.PUBLIC_URL}/images/playmat.png`}/> 
           <div id="CardGameMatCards">
             <div className = "TheMatCards" id="CardBack" />
             <div className = "TheMatCards" id = "MagicCard"><img id = "magicCardBack" src = {`${process.env.PUBLIC_URL}/images/Magic_card_back.png`} alt = "magic back"/></div>

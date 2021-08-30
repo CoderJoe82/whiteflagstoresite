@@ -9,62 +9,23 @@ class StaffPageSmall extends Component {
                 <NavMenuSmall />
                 <h3 id = "staffHeadText">Meet our Staff!</h3>
                 <div id = "staffSectionSmall">
-                    <div id = "joeSectionSmall">
-                        <img alt = "owner mobile" id = "joeMobilePic" src = {`${process.env.PUBLIC_URL}/images/wfjoe.png`} />
-                        <div id = "joeMobileText">
-                            Name:<br />
-                            Joe McNeil<br /><br />
-                            Operations Director<br /><br />
-                            joe@<br />whiteflaggames.com
-                        </div>
+                    <div id = "joeSpotSmall">
+                        <img id = "joepicture" alt = "joe" src = {`${process.env.PUBLIC_URL}/images/FFstaffcardbacks/joefullpic.png`} />
+                        <p id = "joeText">Joe@whiteflaggames.com</p>
                     </div>
-                    <div id = "scottSectionSmall">
-                        <img alt = "scott mobile" id = "scottMobilePic" src = {`${process.env.PUBLIC_URL}/images/wfscott.png`} />
-                        <div id = "joeMobileText">
-                            Name:<br />
-                            Scott Andrews<br /><br />
-                            Purchase and Account Director<br /><br />
-                            Scott@<br />whiteflaggames.com
-                        </div>
+                    <div id = "scottSpotSmall">
+                        <img id = "scottpicture" alt = "scott" src = {`${process.env.PUBLIC_URL}/images/FFstaffcardbacks/scottfullpic.png`} />
+                        <p id = "scottText">Scott@whiteflaggames.com</p>
                     </div>
-                    <div id = "dakotaSectionSmall">
-                        <img alt = "dakota mobile" id = "dakotaMobilePic" src = {`${process.env.PUBLIC_URL}/images/wfdakota.png`} />
-                        <div id = "dakotaMobileText">
-                            Name:<br />
-                            Dakota McMurray<br /><br />
-                            Social Media Director<br /><br />
-                            Dakota@<br />whiteflaggames.com
-                        </div>
+                    <div id = "dakotaSpotSmall">
+                        <img id = "dakotapicture" alt = "dakota" src = {`${process.env.PUBLIC_URL}/images/FFstaffcardbacks/dakotafullpic.png`} />
+                        <p id = "dakotaText">Dakota@whiteflaggames.com</p>
                     </div>
-                    <div id = "joshSectionSmall">
-                        <img alt = "josh mobile" id = "joshMobilePic" src = {`${process.env.PUBLIC_URL}/images/wfjosh.png`} />
-                        <div id = "joshMobileText">
-                            Name:<br />
-                            Josh Freeman<br /><br />
-                            Social Media Director<br /><br />
-                            Josh@<br />whiteflaggames.com
-                        </div>
-                    </div>
-                    <div id = "aaronSectionSmall">
-                        <img alt = "aaron mobile" id = "aaronMobilePic" src = {`${process.env.PUBLIC_URL}/images/wfaaron.png`} />
-                        <div id = "aaronMobileText">
-                            Name:<br />
-                            Aaron Sutton<br /><br />
-                            Social Media Director<br /><br />
-                            Aaron@<br />whiteflaggames.com
-                        </div>
-                    </div>
-                    <div id = "drewSectionSmall">
-                        <img alt = "drew mobile" id = "drewMobilePic" src = {`${process.env.PUBLIC_URL}/images/wfdrew.png`} />
-                        <div id = "drewMobileText">
-                            Name:<br />
-                            Drew Happli<br /><br />
-                            Social Media Director<br /><br />
-                            Drew@<br />whiteflaggames.com
-                        </div>
+                    <div id = "joshSpotSmall">
+                        <img id = "joshpicture" alt = "josh" src = {`${process.env.PUBLIC_URL}/images/FFstaffcardbacks/joshfullpic.png`} />
+                        <p id = "joshText">Josh@whiteflaggames.com</p>
                     </div>
                 </div>
-                <div style = {{height: "10%", width: "100%", marginTop: "5%"}} />
             </div>
         )
     }
