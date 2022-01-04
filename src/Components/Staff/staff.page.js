@@ -7,15 +7,15 @@ import StaffPageSmall from "./Small/staff.page.small";
 class StaffPage extends Component {
   render() {
     return (
-        <>
+        <div id = "staffPage">
         <Breakpoint large up>
           <StaffPageLarge />
         </Breakpoint>
         <Breakpoint small down>
             <StaffPageSmall />
         </Breakpoint>
-        </>
-    );
+        </div>
+    )
   }
 }
 

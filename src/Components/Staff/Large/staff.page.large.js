@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import GamePagesHomeButton from "../../Games/HomeButton/games.page.large.home.button";
+import GamePagesHomeButton from "../../Games/HomeButton/games.page.large.home.button"
 import "./staff.page.large.css";
 
 class StaffPageLarge extends Component {

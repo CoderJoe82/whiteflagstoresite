@@ -6,6 +6,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    z-index: 10000000000
 }
 
 #GamesPageHomeButton {
@@ -16,6 +17,7 @@
     background-color: white;
     border-radius: 20px;
     font-size: 1.4rem;
+    z-index: 10000000000
 }
 
 #GamesPageHomeButton:hover {

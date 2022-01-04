@@ -33,13 +33,13 @@ class BoardPageLarge extends Component {
         <GameMenu />
         <h1 id="boardGamesTitle">Board Games</h1>
         <div id="GameBoard"><img id = "boardGameImage" src = {`${process.env.PUBLIC_URL}/images/boardGameImage.png`} alt = "board game"/></div>
-        <GamesPageHomeButton />
         <ScheduleModal 
             show = {this.state.show}
             pageType = {this.state.pageType}
             saturdayFontStyle = {this.state.fontStyle}
             handleClose = {this.handleClose}
         />
+        <GamesPageHomeButton />
         <button id="scheduleButtonLarge" onClick={this.handleShow}>
           Schedule
         </button>
